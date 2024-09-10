@@ -1,0 +1,142 @@
+/* body */
+body {
+    background-color: black;
+}
+
+/* To style the whole div content */
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+/* To style navigation bar */
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+/* Navigation unordered list bar */
+.nav ul {
+    margin-left: 50rem;
+    margin-top: -1rem;
+}
+
+/* To style navigation bar unordered list link */
+.nav ul a {
+    text-decoration-line: none;
+    margin-inline-start: 17px;
+    scale: 1.5;
+}
+
+/* To style  navigation bar unordered list link when mouse hover on it */
+.nav a:hover{
+    background-color: black;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+/* To style the h1 span with word spacing */
+#c1{
+    word-spacing: 58px;
+}
+
+/* To style the h1 with font family */
+h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+}
+
+/* To style the p1 with font family */
+P1{
+    font-family: 'Space Mono', monospace;
+    font-weight: 500;
+    font: 1em 'Space Mono', monospace;
+}
+
+/* To style FontAwesome icons */
+.fa {
+    color: white;
+}
+
+/* To style logo design in the navigation bar */
+#logo {
+    color: white;
+    margin-left: 10rem;
+    font-family: 'Space Mono', monospace;
+}
+
+/* To style content section */
+.content {
+    color: white;
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+
+/* To style the image */
+img {
+    position: absolute;
+    top: 0;
+    order: 1;
+    z-index: -1;
+    left: 52.5rem;
+    height: 37rem;
+    margin-top: 0rem;
+}
+
+/* To style the p text */
+p{
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 2.5rem;
+}
+
+/* To style the button text and the second span for underline */
+#l2{
+    border-bottom: 3px solid rgb(69, 148, 69);
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+/* To style the button*/
+button{
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+
+button a{ 
+    text-decoration-line: none;
+}
+
+button a:hover{
+    scale: 5.0;
+    color: rgb(7, 6, 6);
+}
+
+/* To style the p3 text */
+p3{
+    font-family: 'Space Mono', monospace;
+}
+
+/* To style the first span with underline*/
+#l1{
+    border-bottom: 7px solid rgb(69, 148, 69); 
+}
+
+/* To style the svg small circle */
+.small-circle{
+    position: absolute;
+    scale: 0.3;
+    top: 13rem;
+    z-index: -1;
+    left: 27rem;   
+}
+
+/* To style the svg big circle */
+.big-circle{
+    position: absolute;
+    scale: 0.7;
+    top: -5.1rem;
+    z-index: -1;
+    left: -14rem; 
+}  
